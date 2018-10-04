@@ -3,10 +3,15 @@ Panjab University<br>
 Chandigarh, India<br>
 <hr>
 
-####[About]
-####[Educational Background]
-####[Internships and Experiences]
-####[Projects]
+####About
+Hi! I am a Bachelors student from the incredible country, India. My motive is to experiment with my knowledge, learning new technologies and tools, and also integrating these experiments into real world problems to eradicate the lurking flaws of the society and ameliorate the present conditions.<br>
+I have experience in Android Application Development and Big Data tools like Hadoop, Spark & Flume. I have basic knowledge of data processing platforms like MySQL and MongoDB.<br>
+Currently working on Network Security combined with Hadoop, I find the field of Network Security a lot more interesting than it actually appears to be.<br><br>
+Apart from technological stuff, I enjoy learning about the korean pop culture and listening to korean pop music. Photography
+(without a DSLR ;)), sketching and reading are my other go to things.<br>
+####Educational Background
+####Internships and Experiences
+####Projects
 
 [Github](https://github.com/97arushisharma)<br>
 [LinkedIn](https://linkedin.com/in/arushi-sharma-958367125/)<br>
