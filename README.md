@@ -1,7 +1,7 @@
 # Arushi Sharma
-**B.E - Information Technology**
-Panjab University
-Chandigarh, India
+**B.E - Information Technology**</br>
+Panjab University</br>
+Chandigarh, India</br>
 <hr>
 
 ####[About]
@@ -9,5 +9,5 @@ Chandigarh, India
 ####[Internships and Experiences]
 ####[Projects]
 
-[Github](https://github.com/97arushisharma)
-[LinkedIn](https://linkedin.com/in/arushi-sharma-958367125/)
+[Github](https://github.com/97arushisharma)</br>
+[LinkedIn](https://linkedin.com/in/arushi-sharma-958367125/)</br>
