@@ -1,6 +1,6 @@
 **B.E - Information Technology**<br>
-Panjab University<br>
-Chandigarh, India<br>
+**Panjab University**<br>
+**Chandigarh, India**<br>
 <hr>
 
 ### About
