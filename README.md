@@ -1,1 +1,3 @@
-# 97arushisharma.github.io
+#> Arushi Sharma
+<hr>
+.bg-teal { background-color: #39CCCC; }
