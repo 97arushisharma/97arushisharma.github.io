@@ -1,4 +1,3 @@
-# Arushi Sharma
 **B.E - Information Technology**<br>
 Panjab University<br>
 Chandigarh, India<br>
