@@ -23,7 +23,7 @@ Google PlayStore Link: [Red-Aid](https://play.google.com/store/apps/details?id=c
 Undertaking the research project under the guidance of [Dr. Krishan Kumar]()(Professor, Department of Information Technology, UIET) that detects the Flood Attack on a system using a Hadoop Cluster.<br>
 ## [Blogs](BLOG.md)
 ## Web Links
-[Github](https://github.com/97arushisharma)<br><br>
-[LinkedIn](https://linkedin.com/in/arushi-sharma-958367125/)<br><br>
+![Github](images/github.png)[Github](https://github.com/97arushisharma)<br><br>
+![LinkedIn](images/Linkedin-icon.png)[LinkedIn](https://linkedin.com/in/arushi-sharma-958367125/)<br><br>
 
 ## Contact
