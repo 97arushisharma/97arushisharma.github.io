@@ -16,7 +16,7 @@ Project Intern at DIC, UIET, Chandigarh under the guidance of [Dr. Naveen Aggarw
 **Design and Innovation Center, UIET, Panjab University**<br>
 _Jun,2017-Jul,2017_<br>
 Project Intern at DIC, UIET, Chandigarh under the guidance of [Dr. Naveen Aggarwal]( )(Principal Investigator, DIC, UIET) responsible for creating an Android Application by the name **Red-Aid** aimed towards the blood donors and the blood donee. It also facilitates organ donation pledge taking task for the donors.<br>
-Link: [Red-Aid](https://play.google.com/store/apps/details?id=com.DIC.RedAid.Application)<br><br>
+Google PlayStore Link: [Red-Aid](https://play.google.com/store/apps/details?id=com.DIC.RedAid.Application)<br><br>
 ### Projects
 **Detecting Flooding Based DDoS attack using Hadoop**<br>
 Undertaking the research project under the guidance of [Dr. Krishan Kumar]()(Professor, Department of Information Technology, UIET) that detects the Flood Attack on a system using a Hadoop Cluster.<br>
