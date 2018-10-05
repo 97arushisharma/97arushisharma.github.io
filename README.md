@@ -11,7 +11,7 @@ Apart from technological stuff, I enjoy learning about the korean pop culture an
 (without a DSLR ;)), sketching and reading are my other go to things.<br>
 ### Internships and Experiences
 ### Projects
-
+### [Blogs](BLOG.md)
 ### Web Links
 [Github](https://github.com/97arushisharma)<br><br>
 [LinkedIn](https://linkedin.com/in/arushi-sharma-958367125/)<br><br>
