@@ -1,7 +1,7 @@
 **B.E - Information Technology**<br>
 **Panjab University**<br>
 **Chandigarh, India**<br>
-Email-_97arushisharma@gmail.com_
+_97arushisharma@gmail.com_
 <hr>
 
 ## About Me
@@ -23,7 +23,7 @@ Google PlayStore Link: [Red-Aid](https://play.google.com/store/apps/details?id=c
 Undertaking the research project under the guidance of [Dr. Krishan Kumar]()(Professor, Department of Information Technology, UIET) that detects the Flood Attack on a system using a Hadoop Cluster.<br>
 ## [Blogs](BLOG.md)
 ## Web Links
-![Github](github.png =50x50)[Github](https://github.com/97arushisharma)<br><br>
-![LinkedIn](Linkedin-icon.png =50x50)[LinkedIn](https://linkedin.com/in/arushi-sharma-958367125/)<br><br>
+![Github](github.png)[Github](https://github.com/97arushisharma)<br><br>
+![LinkedIn](Linkedin-icon.png)[LinkedIn](https://linkedin.com/in/arushi-sharma-958367125/)<br><br>
 
 ## Contact
