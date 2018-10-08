@@ -13,14 +13,14 @@ Apart from technological stuff, I enjoy learning about the korean pop culture an
 ## Internships and Experiences
 **Design and Innovation Center, UIET, Panjab University**<br>
 _Jan,2018- May,2018_<br>
-Project Intern at DIC, UIET, Chandigarh under the guidance of [Dr. Naveen Aggarwal]( )(Principal Investigator, DIC, UIET) responsible for creating a desktop application for translating Hindi-English mixed sentences into english. The hindi part of the sentences could be in romanized form.<br><br>
+Project Intern at DIC, UIET, Chandigarh under the guidance of [Dr. Naveen Aggarwal](http://uiet.puchd.ac.in/faculty2018/cvs%20of%20CSE/NaveenAggarwal.pdf)(Principal Investigator, DIC, UIET) responsible for creating a desktop application for translating Hindi-English mixed sentences into english. The hindi part of the sentences could be in romanized form.<br><br>
 **Design and Innovation Center, UIET, Panjab University**<br>
 _Jun,2017-Jul,2017_<br>
-Project Intern at DIC, UIET, Chandigarh under the guidance of [Dr. Naveen Aggarwal]( )(Principal Investigator, DIC, UIET) responsible for creating an Android Application by the name **Red-Aid** aimed towards the blood donors and the blood donee. It also facilitates organ donation pledge taking task for the donors.<br>
+Project Intern at DIC, UIET, Chandigarh under the guidance of [Dr. Naveen Aggarwal](http://uiet.puchd.ac.in/faculty2018/cvs%20of%20CSE/NaveenAggarwal.pdf)(Principal Investigator, DIC, UIET) responsible for creating an Android Application by the name **Red-Aid** aimed towards the blood donors and the blood donee. It also facilitates organ donation pledge taking task for the donors.<br>
 Google PlayStore Link: [Red-Aid](https://play.google.com/store/apps/details?id=com.DIC.RedAid.Application)<br><br>
 ## Projects
 **Detecting Flooding Based DDoS attack using Hadoop**<br>
-Undertaking the research project under the guidance of [Dr. Krishan Kumar]()(Professor, Department of Information Technology, UIET) that detects the Flood Attack on a system using a Hadoop Cluster.<br><br>
+Undertaking the research project under the guidance of [Dr. Krishan Kumar](http://uiet.puchd.ac.in/faculty2018/cvs%20of%20IT/Dr_Krishan.pdf)(Professor, Department of Information Technology, UIET) that detects the Flood Attack on a system using a Hadoop Cluster.<br><br>
 **News Portal**<br>
 Part of Deloitte Technoutsav Project, the News Portal is a dektop application that collects news articles corresponding to a keyword, through webscraping(Online News Websites) or live streaming from twitter and displays a summarized result from the two sources.<br><br>
 **Hindi-English Mixed Language Translator**<br>
