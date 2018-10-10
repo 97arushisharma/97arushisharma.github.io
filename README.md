@@ -33,7 +33,7 @@ This is an Android Application that is targetted towards people in immediate nee
 This is a simple Desktop Application made in Java Eclipse with backend connectivity in SQLite. This system stores the user information in the database and displays the updated information after each transaction.<br><br>
 ## [Blogs](BLOG.md)
 ## Web Links
-![Github](github.png)[Github](https://github.com/97arushisharma)<br><br>
-![LinkedIn](Linkedin-icon.png)[LinkedIn](https://linkedin.com/in/arushi-sharma-958367125/)<br><br>
+![Github](github.png | width=50)[Github](https://github.com/97arushisharma)<br><br>
+![LinkedIn](Linkedin-icon.png | width=50)[LinkedIn](https://linkedin.com/in/arushi-sharma-958367125/)<br><br>
 
 ## Contact
