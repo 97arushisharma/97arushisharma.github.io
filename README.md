@@ -38,4 +38,4 @@ This is a simple Desktop Application made in Java Eclipse with backend connectiv
 
 
 ## Resume
-[<img src="git.svg" width="40" height="40">](
+[<img src="download.png" width="40" height="40">](
