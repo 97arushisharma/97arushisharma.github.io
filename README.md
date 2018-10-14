@@ -38,4 +38,5 @@ This is a simple Desktop Application made in Java Eclipse with backend connectiv
 
 
 ## Resume
-[<img src="download.png" width="40" height="40">](
+Download Resume<br>
+[<img src="download.png" width="40" height="40">](ArushiS_Resume.pdf)
