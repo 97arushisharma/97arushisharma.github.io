@@ -37,4 +37,5 @@ This is a simple Desktop Application made in Java Eclipse with backend connectiv
 [<img src="Linkedin-icon.png" width="40" height="40">](https://linkedin.com/in/arushi-sharma-958367125/)<br><br>
 
 
-## Contact
+## Resume
+[<img src="git.svg" width="40" height="40">](
