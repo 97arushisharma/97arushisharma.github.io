@@ -1,5 +1,17 @@
 @import "{{ site.theme }}";
 
+.inner img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.inner h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
 header {
   display: none;
 }
