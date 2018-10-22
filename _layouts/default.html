@@ -16,10 +16,10 @@
 
   <body>
     <header>
-      <div class="inner">
+      <div class="inner" display="inline">
         <img src="git.svg" align="left" width="150" height="150">&nbsp;&nbsp;
         <a href="{{ '/' | absolute_url }}">
-          <h2 align="center" display="inline">{{ site.title | default: site.github.repository_name }}</h2>
+          <h1 align="center" display="inline">{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         {% if site.github.is_project_page %}
