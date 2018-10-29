@@ -3,6 +3,10 @@
 **Chandigarh, India**<br>
 _97arushisharma@gmail.com_
 <hr>
+ 
+[<img src="mail.png" width="40" height="40" align="center">](https://linkedin.com/in/arushi-sharma-958367125/)&nbsp;&nbsp;&nbsp;&nbsp;
+[<img src="git.svg" width="40" height="40">](https://github.com/97arushisharma)&nbsp;&nbsp;&nbsp;&nbsp;
+[<img src="Linkedin-icon.png" width="40" height="40">](https://linkedin.com/in/arushi-sharma-958367125/)<br><br>
 
 ## About Me
 Hi! I am a Bachelors student whose motive is to learn new technologies and tools, experiment with my knowledge and also integrating these experiments into real world problems to eradicate the lurking flaws of the society and ameliorate the present conditions.<br>
