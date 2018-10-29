@@ -4,7 +4,7 @@
 _97arushisharma@gmail.com_
 <hr>
  
-[<img src="mail1.png" width="60" height="40" float="center">](mailto:97arushisharma@gmail.com)&nbsp;&nbsp;&nbsp;&nbsp;
+[<img src="mail1.png" width="70" height="40" float="center">](mailto:97arushisharma@gmail.com)&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="git.svg" width="40" height="40">](https://github.com/97arushisharma)&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="Linkedin-icon.png" width="40" height="40">](https://linkedin.com/in/arushi-sharma-958367125/)<br><br>
 
