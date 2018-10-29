@@ -34,11 +34,7 @@ This research project involved the comparison of the performance of various Big 
 This is an Android Application that is targetted towards people in immediate need of blood. It searches for the nearby donors and provides a way to contact them without disclosing the identity of the donor to the donee unless the donor allows.<br><br>
 **Online Transaction System**<br>
 This is a simple Desktop Application made in Java Eclipse with backend connectivity in SQLite. This system stores the user information in the database and displays the updated information after each transaction.<br><br>
-## [Blogs](BLOG.md)
-## Web Links
-
-
-
+<!--## [Blogs](BLOG.md)-->
 ## Resume
 Download Resume<br>
 &nbsp;[<img src="download2.png" width="80" height="80" align="center">](ArushiS_Resume.pdf)
