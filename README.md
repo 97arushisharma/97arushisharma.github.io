@@ -14,6 +14,9 @@ Over the past three years of my bachelors I have explored many fields to find th
 Apart from technological stuff, I enjoy learning about the korean pop culture and listening to korean pop music. Photography
 (without a DSLR ;)), sketching and reading are my other go to things.<br><br>
 ## Internships and Experiences
+<!--**Gemini Solutions Private Limited, Gurugram**<br>
+_Jan,2019- Present<br>
+Technical Trainee at DIC, UIET, Chandigarh under the guidance of [Dr. Naveen Aggarwal](http://uiet.puchd.ac.in/faculty2018/cvs%20of%20CSE/NaveenAggarwal.pdf)(Principal Investigator, DIC, UIET) responsible for creating a desktop application for translating Hindi-English mixed sentences into english. The hindi part of the sentences could be in romanized form.<br><br>-->
 **Design and Innovation Center, UIET, Panjab University**<br>
 _Jan,2018- May,2018_<br>
 Project Intern at DIC, UIET, Chandigarh under the guidance of [Dr. Naveen Aggarwal](http://uiet.puchd.ac.in/faculty2018/cvs%20of%20CSE/NaveenAggarwal.pdf)(Principal Investigator, DIC, UIET) responsible for creating a desktop application for translating Hindi-English mixed sentences into english. The hindi part of the sentences could be in romanized form.<br><br>
