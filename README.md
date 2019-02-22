@@ -40,4 +40,4 @@ This is a simple Desktop Application made in Java Eclipse with backend connectiv
 <!--## [Blogs](BLOG.md)-->
 ## Resume
 Download Resume<br>
-&nbsp;[<img src="download2.png" width="80" height="80" align="center">](ArushiS_Resume.pdf)
+&nbsp;[<img src="download2.png" width="80" height="80" align="center">](Arushi_Sharma.pdf)
