@@ -15,7 +15,7 @@ Apart from technological stuff, I enjoy learning about the korean pop culture an
 (without a DSLR ;)), sketching and reading are my other go to things.<br><br>
 ## Internships and Experiences
 **Gemini Solutions Private Limited, Gurugram**<br>
-_Jan,2019- Present<br>
+_Jan,2019- Present_<br>
 Technical Trainee at Gemini where I am currently working on Java Spring Boot web services. Also work with Linux and Python.<br><br>
 **Design and Innovation Center, UIET, Panjab University**<br>
 _Jan,2018- May,2018_<br>
