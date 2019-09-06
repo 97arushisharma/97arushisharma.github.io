@@ -15,8 +15,11 @@ Currently I am diving into the field of statistics and machine learning with the
 Apart from technological stuff, I enjoy learning about the korean pop culture and listening to korean pop music. Photography
 (without a DSLR ;)), sketching and reading are my other go to things.<br><br>
 ## Internships and Experiences
+**Guavus, a Thales Company, Gurugram**<br>
+_Jul,2019-Present_<br>
+Associate Software Engineer at Guavus with a Big Data developer role.
 **Gemini Solutions Private Limited, Gurugram**<br>
-_Jan,2019- Present_<br>
+_Jan,2019-Jul,2019_<br>
 Technical Trainee at Gemini where I am currently working on Java Spring Boot web services. Also work with Docker, Kubernetes, Linux and Python(Flask).<br><br>
 **Design and Innovation Center, UIET, Panjab University**<br>
 _Jan,2018- May,2018_<br>
