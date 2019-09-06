@@ -17,7 +17,7 @@ Apart from technological stuff, I enjoy learning about the korean pop culture an
 ## Internships and Experiences
 **Guavus, a Thales Company, Gurugram**<br>
 _Jul,2019-Present_<br>
-Associate Software Engineer at Guavus with a Big Data developer role.
+Associate Software Engineer at Guavus with a Big Data developer role.<br><br>
 **Gemini Solutions Private Limited, Gurugram**<br>
 _Jan,2019-Jul,2019_<br>
 Technical Trainee at Gemini where I am currently working on Java Spring Boot web services. Also work with Docker, Kubernetes, Linux and Python(Flask).<br><br>
