@@ -30,7 +30,8 @@ Project Intern at DIC, UIET, Chandigarh under the guidance of [Dr. Naveen Aggarw
 Google PlayStore Link: [Red-Aid](https://play.google.com/store/apps/details?id=com.DIC.RedAid.Application)<br><br>
 ## Projects
 **Detecting Flooding Based DDoS attack using Hadoop**<br>
-Undertaking the research project under the guidance of [Dr. Krishan Kumar](http://uiet.puchd.ac.in/faculty2018/cvs%20of%20IT/Dr_Krishan.pdf)(Professor, Department of Information Technology, UIET) that detects the Flood based DDoS Attacks on a system using the Entropy of Source IP address over a Hadoop Cluster.<br><br>
+Executed the research project under the guidance of [Dr. Krishan Kumar](http://uiet.puchd.ac.in/faculty2018/cvs%20of%20IT/Dr_Krishan.pdf)(Professor, Department of Information Technology, UIET) that detects the Flood based DDoS Attacks on a system using the Entropy of Source IP address over a Hadoop Cluster.<br>
+Springers Link: [Real-Time DDoS Detection Based on Entropy using Hadoop Framework](https://link.springer.com/chapter/10.1007%2F978-981-32-9515-5_28)<br><br>
 **News Portal**<br>
 Part of Deloitte Technoutsav Project, the News Portal is a dektop application that collects news articles corresponding to a keyword, through webscraping(Online News Websites) or live streaming from twitter and displays a summarized result from the two sources.<br><br>
 **Hindi-English Mixed Language Translator**<br>
