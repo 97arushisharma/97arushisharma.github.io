@@ -13,7 +13,7 @@ Hi! I am a Software Engineer whose motive is to learn new technologies and tools
 Over the four years of my bachelors I have explored many fields to find the one where my interest lies. I have experience in Android Application Development and Big Data tools like Hadoop, Oozie, Kafka & Flume. I have basic knowledge of data storages and management. I have also worked on Network Security combined with Hadoop. I find the field of Network Security a lot more interesting than it actually appears to be and thus, I am familiar with wireshark and iptables in linux. <br>
 <br>
 Apart from technological stuff, I enjoy learning about the korean pop culture and listening to korean pop music. Photography
-(without a DSLR ;)), sketching and reading are my other go to things.<br><br>
+(without a DSLR ;)) [@shabby_pixel](https://instagram.com/shabby_pixel?igshid=s8hu8aptf1vj), sketching and reading are my other go to things.<br><br>
 ## Internships and Experiences
 **Guavus, a Thales Company, Gurugram**<br>
 _Jul,2019-Present_<br>
