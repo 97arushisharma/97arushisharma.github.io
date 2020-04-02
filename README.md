@@ -1,20 +1,23 @@
-**Associate Software Engineer**<br>
+<!--**Associate Software Engineer**<br>
 **Guavus, a Thales Company**<br>
 **Gurgaon, India**<br>
 _97arushisharma@gmail.com_
-<hr>
+<hr>-->
  
-[<img src="mail1.png" width="70" height="40" float="center">](mailto:97arushisharma@gmail.com)&nbsp;&nbsp;&nbsp;
-[<img src="git.svg" width="40" height="40">](https://github.com/97arushisharma)&nbsp;&nbsp;&nbsp;&nbsp;
+<!--[<img src="281769.png" width="45" height="40" float="center">](mailto:97arushisharma@gmail.com)&nbsp;&nbsp;&nbsp;
+[<img src="git.svg" width="37" height="37">](https://github.com/97arushisharma)&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="Linkedin-icon.png" width="40" height="40">](https://linkedin.com/in/aru-sha4/)&nbsp;&nbsp;&nbsp;&nbsp;
-[<img src="twitter.png" width="40" height="40">](https://mobile.twitter.com/aru_sha4)<br><br>
+[<img src="twitter.webp" width="40" height="40">](https://mobile.twitter.com/aru_sha4)&nbsp;&nbsp;&nbsp;&nbsp;
+[<img src="stackoverflow-512.png" width="40" height="40">](https://stackoverflow.com/users/12485228/aru-sha4?tab=profile)<br><br>-->
 
 ## About Me
-Hi! I am a Software Engineer whose motive is to learn new technologies and tools, experiment with my knowledge and also integrating these experiments into real world problems to eradicate the lurking flaws of the society and ameliorate the present conditions. I am deeply passionate about seeing myself as a successful Data Engineer.<br>
-Over the four years of my bachelors I have explored many fields to find the one where my interest lies. As a result I have experience in Android Application Development and Big Data tools like Hadoop, Oozie, Kafka & Flume. I have basic knowledge of data storages and management. I have also worked on Network Security combined with Hadoop. I find the field of Network Security a lot more interesting than it actually appears to be and thus, I am familiar with some linux utilities like wireshark and iptables. <br>
+Hi! I am a Software Engineer whose motive is to learn new technologies and tools, experiment with my knowledge and also integrating these experiments into real world problems to eradicate the lurking flaws of the society and ameliorate the present conditions. I am deeply passionate about seeing myself as a successful Data Engineer.<br><br>
+_"Data is the new science. Big Data holds the answers."_ -Pat Gelsinger<br><br>
+I have experience in Big Data tools like Hadoop, Oozie, Kafka & Flume and Android Application Development. I enjoy playing with data and learning new tools and frameworks to do so is my permanent objective.
+I have basic knowledge of data storages and management. I have also worked on Network Security combined with Hadoop. I find the field of Network Security a lot more interesting than it actually appears to be and thus, I am familiar with some linux network utilities like wireshark and iptables. <br>
 <br>
 I enjoy learning about the korean pop culture and listening to korean pop music as an avocation. I dabble in Photography
-(without a DSLR ;)) [@shabby_pixel](https://instagram.com/shabby_pixel?igshid=s8hu8aptf1vj), sketching and reading are my other go to things.<br><br>
+(without a DSLR ;)), sketching and reading are my other go to things.<br><br>
 ## Internships and Experiences
 **Guavus, a Thales Company, Gurugram**<br>
 _Jul,2019-Present_<br>
@@ -47,4 +50,6 @@ This is a simple Desktop Application made in Java Eclipse with backend connectiv
 [Java Check-style and Formatting using Maven](https://medium.com/@aru_sha4/java-check-style-and-formatting-using-maven-a1a1b4e6e10a)<br><br>
 ## Resume
 Download Resume<br>
-&nbsp;[<img src="download2.png" width="80" height="80" align="center">](ArushiResume(Oct).pdf)
+&nbsp;[<img src="download2.png" width="60" height="60" align="center">](ArushiResume(Jan).pdf)<br><br>
+## Photo Gallery<br>
+Here are some of my favourites from my gallery. For more visit [@shabby_pixel](https://instagram.com/shabby_pixel?igshid=s8hu8aptf1vj)<br><br>
