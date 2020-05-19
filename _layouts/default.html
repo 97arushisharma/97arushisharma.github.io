@@ -43,8 +43,8 @@
 
 .circular {
   border-radius: 50%;
-  width: 250px;
-  height: 250px;
+  width: 50%;
+  height: 50%;
   text-align: center;
   position: relative;
   top: 50%;
@@ -80,6 +80,9 @@ ul#horizontal-list li {
   </head>
 
   <body>
+    <a href="{{ '/' | absolute_url }}">
+       <h1 align="center">{{ site.title | default: site.github.repository_name }}</h1>
+    </a>
     <header class="over">
         <div class="container">
           <img src="resources/20190926_172910.jpg" alt="Avatar" class="image">
@@ -104,9 +107,7 @@ ul#horizontal-list li {
     </header> -->
     <div class="inner" display="inline">
               <!--<img src="git.svg" align="left" width="150" height="150">&nbsp;&nbsp;-->
-              <a href="{{ '/' | absolute_url }}">
-                <h1 align="center">{{ site.title | default: site.github.repository_name }}</h1>
-              </a>
+
               <h2>{{ site.description | default: site.github.project_tagline }}</h2>
               {% if site.github.is_project_page %}
                 <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
