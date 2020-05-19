@@ -11,8 +11,10 @@ _97arushisharma@gmail.com_
 [<img src="stackoverflow-512.png" width="40" height="40">](https://stackoverflow.com/users/12485228/aru-sha4?tab=profile)<br><br>-->
 
 ## About Me
-Hi! I am a Software Engineer whose motive is to learn new technologies and tools, experiment with my knowledge and also integrating these experiments into real world problems to eradicate the lurking flaws of the society and ameliorate the present conditions. I am deeply passionate about seeing myself as a successful Data Engineer.<br>
-I have experience in Android Application Development and Big Data tools like Hadoop, Oozie, Kafka & Flume. I have basic knowledge of data storages and management. I have also worked on Network Security combined with Hadoop. I find the field of Network Security a lot more interesting than it actually appears to be and thus, I am familiar with some linux network utilities like wireshark and iptables. <br>
+Hi! I am a Software Engineer whose motive is to learn new technologies and tools, experiment with my knowledge and also integrating these experiments into real world problems to eradicate the lurking flaws of the society and ameliorate the present conditions. I am deeply passionate about seeing myself as a successful Data Engineer.<br><br>
+_"Data is the new science. Big Data holds the answers."_ -Pat Gelsinger<br><br>
+I have experience in Big Data tools like Hadoop, Oozie, Kafka & Flume and Android Application Development. I enjoy playing with data and learning new tools and frameworks to do so is my permanent objective.
+I have basic knowledge of data storages and management. I have also worked on Network Security combined with Hadoop. I find the field of Network Security a lot more interesting than it actually appears to be and thus, I am familiar with some linux network utilities like wireshark and iptables. <br>
 <br>
 I enjoy learning about the korean pop culture and listening to korean pop music as an avocation. I dabble in Photography
 (without a DSLR ;)), sketching and reading are my other go to things.<br><br>
