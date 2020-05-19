@@ -1,167 +1,148 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">-->
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
-    <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
-    
-    <style>
-      
- 
-.container {
-  position: relative;
-  width: 100%;
-}
-
-.image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
-}
-
-.container:hover .image {
-  opacity: 0.3;
-}
-
-.container:hover .middle {
-  opacity: 1;
-}
-
-.circular {
-  border-radius: 50%;
-  width: 250px;
-  height: 300px;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.text {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  color: #ffffff;
-  font-size: 30px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.table {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  text-align: center;
-  color: #0066ff;
-  font-size: 15px;
-}
-ul#horizontal-list li {
-  display:inline;
-}
-</style>
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-{% seo %}
-  </head>
-
-  <body class="nil">
-<!--     <a href="{{ '/' | absolute_url }}">
-       <h1 align="center">{{ site.title | default: site.github.repository_name }}</h1>
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">-->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
+  <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
+  <style>
+    .container {
+    position: relative;
+    width: 100%;
+    }
+    .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+    .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+    }
+    .container:hover .image {
+    opacity: 0.3;
+    }
+    .container:hover .middle {
+    opacity: 1;
+    }
+    .circular {
+    border-radius: 50%;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+    .text {
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    color: #000000;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+    .table {
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    text-align: center;
+    color: #0066ff;
+    font-size: 15px;
+    }
+    ul#horizontal-list li {
+    display:inline;
+    }
+  </style>
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  {% seo %}
+</head>
+<body class="nil" style="background-color:#333333">
+  <!--     <a href="{{ '/' | absolute_url }}">
+    <h1 align="center">{{ site.title | default: site.github.repository_name }}</h1>
     </a> -->
-<!--     <header class="over"> -->
-        <div class="container">
-          <img src="resources/20190926_172910.jpg" alt="Avatar" class="image">
-          <div class="middle">
-              <div class="circular"><img src="resources/12055-min.jpg" alt="Its Me" class="circular" ></div>
-              <div class="text">Hello World! Its ARUSHI!</div>
-              <div class="table"><p align="center">Associate Software Engineer<br>Guavus, a Thales Company<br>Gurgaon, India<br>97arushisharma@gmail.com</p>
-            </div>
-              
-            <div class="table">
-              <ul id="horizontal-list">
-                <li><a href="mailto:97arushisharma@gmail.com"><img src="281769.png" alt="list item 1" width="45" height="40" /></a></li>
-                <li><a href="https://github.com/97arushisharma"><img src="git.svg" alt="list item 2" width="37" height="37" /></a></li>
-                <li><a href="https://linkedin.com/in/aru-sha4/"><img src="Linkedin-icon.png" alt="list item 3" width="40" height="40" /></a></li>
-                <li><a href="https://mobile.twitter.com/aru_sha4"><img src="twitter.webp" alt="list item 4" width="40" height="40" /></a></li>
-                <li><a href="https://stackoverflow.com/users/12485228/aru-sha4?tab=profile"><img src="stackoverflow-512.png" alt="list item 5" width="40" height="40" /></a></li>
-              </ul>
-            </div>
-            
-            
-        </div>
+  <!--     <header class="over"> -->
+  <div class="container">
+    <img src="resources/20190926_172910.jpg" alt="Avatar" class="image">
+    <div class="middle">
+      <div class="circular"><img src="resources/12055-min.jpg" alt="Its Me" class="circular" ></div>
+      <div class="text">Hello World! Its ARUSHI!</div>
+      <div class="table">
+        <p align="center">Associate Software Engineer<br>Guavus, a Thales Company<br>Gurgaon, India<br>97arushisharma@gmail.com</p>
       </div>
-<!--     </header> -->
-<!--     <header>
-      
+      <div class="table">
+        <ul id="horizontal-list">
+          <li><a href="mailto:97arushisharma@gmail.com"><img src="281769.png" alt="list item 1" width="45" height="40" /></a></li>
+          <li><a href="https://github.com/97arushisharma"><img src="git.svg" alt="list item 2" width="37" height="37" /></a></li>
+          <li><a href="https://linkedin.com/in/aru-sha4/"><img src="Linkedin-icon.png" alt="list item 3" width="40" height="40" /></a></li>
+          <li><a href="https://mobile.twitter.com/aru_sha4"><img src="twitter.webp" alt="list item 4" width="40" height="40" /></a></li>
+          <li><a href="https://stackoverflow.com/users/12485228/aru-sha4?tab=profile"><img src="stackoverflow-512.png" alt="list item 5" width="40" height="40" /></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--     </header> -->
+  <!--     <header>
     </header> -->
-    <div class="inner" display="inline">
-              <!--<img src="git.svg" align="left" width="150" height="150">&nbsp;&nbsp;-->
-
-              <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-              {% if site.github.is_project_page %}
-                <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
-              {% endif %}
-              {% if site.github.is_user_page %}
-                <!-- <a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a> -->
-              {% endif %}
-          </div>
-          <div id="content-wrapper">
-            <div class="inner clearfix" style="text-align: justify">
-            <section id="main-content">
-               {{ content }}
-            </section>
-
-            <!--<aside id="sidebar">
-              {% if site.show_downloads %}
-                 <a href="{{ site.github.zip_url }}" class="button">
-                 <small>Download</small>
-                    .zip file
-                  </a>
-                  <a href="{{ site.github.tar_url }}" class="button">
-                  <small>Download</small>
-                  .tar.gz file
-                  </a>
-              {% endif %}
-              {% if site.github.is_project_page %}
-                <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
-              {% endif %}
-               <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</p>
-            </aside>-->
-          </div>
-        </div>
-
-    
-
-    {% if site.google_analytics %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
+  <div class="inner" display="inline">
+    <!--<img src="git.svg" align="left" width="150" height="150">&nbsp;&nbsp;-->
+    <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+    {% if site.github.is_project_page %}
+    <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
     {% endif %}
-  </body>
+    {% if site.github.is_user_page %}
+    <!-- <a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a> -->
+    {% endif %}
+  </div>
+  <div id="content-wrapper">
+    <div class="inner clearfix" style="text-align: justify">
+      <section id="main-content">
+        {{ content }}
+      </section>
+      <!--<aside id="sidebar">
+        {% if site.show_downloads %}
+           <a href="{{ site.github.zip_url }}" class="button">
+           <small>Download</small>
+              .zip file
+            </a>
+            <a href="{{ site.github.tar_url }}" class="button">
+            <small>Download</small>
+            .tar.gz file
+            </a>
+        {% endif %}
+        {% if site.github.is_project_page %}
+          <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
+        {% endif %}
+         <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</p>
+        </aside>-->
+    </div>
+  </div>
+  {% if site.google_analytics %}
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+</body>
 </html>
