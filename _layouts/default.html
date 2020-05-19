@@ -2,15 +2,25 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">-->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <style>
 .container {
   position: relative;
-  width: 50%;
+  width: 100%;
+  background-image: url("resources/20190926_172910.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .image {
@@ -58,7 +68,7 @@
   <body>
     <header>
       <div class="container">
-        <img src="resources/20190926_172910.jpg" alt="Avatar" class="image">
+        <!--<img src="resources/20190926_172910.jpg" alt="Avatar" class="image">-->
         <div class="overlay">
           <div class="text">Hello World! Its ARUSHI!</div>
         </div>
