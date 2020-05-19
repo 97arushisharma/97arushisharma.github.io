@@ -9,6 +9,20 @@
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
     
     <style>
+      
+ .parallax {
+  /* The image used */
+  background-image: url("resources/20190926_172910.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .container {
   position: relative;
   width: 100%;
@@ -86,7 +100,7 @@ ul#horizontal-list li {
        <h1 align="center">{{ site.title | default: site.github.repository_name }}</h1>
     </a> -->
     <header class="over">
-        <div class="container">
+        <div class="parallax">
           <img src="resources/20190926_172910.jpg" alt="Avatar" class="image">
           <div class="middle">
               <div class="circular"><img src="resources/12055-min.jpg" alt="Its Me" class="circular" ></div>
