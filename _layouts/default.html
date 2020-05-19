@@ -33,14 +33,21 @@
 }
 
 .container:hover .overlay {
-  bottom: 0;
-  height: 100%;
+  opacity: 1;
+/*   bottom: 0;
+  height: 100%; */
 }
 
 .circular {
   border-radius: 50%;
   width: 250px;
   text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .text {
@@ -67,7 +74,7 @@
         <div class="container">
           <img src="resources/20190926_172910.jpg" alt="Avatar" class="image">
           <div class="overlay">
-            <div class="text"><img src="resources/12055-min.jpg" alt="Its Me" class="circular" ></div>
+            <div class="circular"><img src="resources/12055-min.jpg" alt="Its Me" class="circular" ></div>
             <div class="text">Hello World! Its ARUSHI!</div>
             
             
