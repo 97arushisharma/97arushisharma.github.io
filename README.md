@@ -1,8 +1,8 @@
-**Associate Software Engineer**<br>
+<!--**Associate Software Engineer**<br>
 **Guavus, a Thales Company**<br>
 **Gurgaon, India**<br>
 _97arushisharma@gmail.com_
-<hr>
+<hr>-->
  
 <!--[<img src="281769.png" width="45" height="40" float="center">](mailto:97arushisharma@gmail.com)&nbsp;&nbsp;&nbsp;
 [<img src="git.svg" width="37" height="37">](https://github.com/97arushisharma)&nbsp;&nbsp;&nbsp;&nbsp;
