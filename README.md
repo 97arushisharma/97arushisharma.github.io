@@ -4,11 +4,11 @@
 _97arushisharma@gmail.com_
 <hr>
  
-[<img src="281769.png" width="45" height="40" float="center">](mailto:97arushisharma@gmail.com)&nbsp;&nbsp;&nbsp;
+<!--[<img src="281769.png" width="45" height="40" float="center">](mailto:97arushisharma@gmail.com)&nbsp;&nbsp;&nbsp;
 [<img src="git.svg" width="37" height="37">](https://github.com/97arushisharma)&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="Linkedin-icon.png" width="40" height="40">](https://linkedin.com/in/aru-sha4/)&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="twitter.webp" width="40" height="40">](https://mobile.twitter.com/aru_sha4)&nbsp;&nbsp;&nbsp;&nbsp;
-[<img src="stackoverflow-512.png" width="40" height="40">](https://stackoverflow.com/users/12485228/aru-sha4?tab=profile)<br><br>
+[<img src="stackoverflow-512.png" width="40" height="40">](https://stackoverflow.com/users/12485228/aru-sha4?tab=profile)<br><br>-->
 
 ## About Me
 Hi! I am a Software Engineer whose motive is to learn new technologies and tools, experiment with my knowledge and also integrating these experiments into real world problems to eradicate the lurking flaws of the society and ameliorate the present conditions. I am deeply passionate about seeing myself as a successful Data Engineer.<br>
