@@ -12,10 +12,10 @@ _97arushisharma@gmail.com_
 
 ## About Me
 Hi! I am a Software Engineer whose motive is to learn new technologies and tools, experiment with my knowledge and also integrating these experiments into real world problems to eradicate the lurking flaws of the society and ameliorate the present conditions. I am deeply passionate about seeing myself as a successful Data Engineer.<br>
-Over the four years of my bachelors I have explored many fields to find the one where my interest lies. As a result I have experience in Android Application Development and Big Data tools like Hadoop, Oozie, Kafka & Flume. I have basic knowledge of data storages and management. I have also worked on Network Security combined with Hadoop. I find the field of Network Security a lot more interesting than it actually appears to be and thus, I am familiar with some linux utilities like wireshark and iptables. <br>
+I have experience in Android Application Development and Big Data tools like Hadoop, Oozie, Kafka & Flume. I have basic knowledge of data storages and management. I have also worked on Network Security combined with Hadoop. I find the field of Network Security a lot more interesting than it actually appears to be and thus, I am familiar with some linux network utilities like wireshark and iptables. <br>
 <br>
 I enjoy learning about the korean pop culture and listening to korean pop music as an avocation. I dabble in Photography
-(without a DSLR ;)) [@shabby_pixel](https://instagram.com/shabby_pixel?igshid=s8hu8aptf1vj), sketching and reading are my other go to things.<br><br>
+(without a DSLR ;)), sketching and reading are my other go to things.<br><br>
 ## Internships and Experiences
 **Guavus, a Thales Company, Gurugram**<br>
 _Jul,2019-Present_<br>
@@ -50,3 +50,4 @@ This is a simple Desktop Application made in Java Eclipse with backend connectiv
 Download Resume<br>
 &nbsp;[<img src="download2.png" width="60" height="60" align="center">](ArushiResume(Jan).pdf)<br><br>
 ## Photo Gallery<br>
+Here are some of my favourites from my gallery. For more visit [@shabby_pixel](https://instagram.com/shabby_pixel?igshid=s8hu8aptf1vj)<br><br>
