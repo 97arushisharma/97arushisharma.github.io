@@ -48,4 +48,5 @@ This is a simple Desktop Application made in Java Eclipse with backend connectiv
 [Java Check-style and Formatting using Maven](https://medium.com/@aru_sha4/java-check-style-and-formatting-using-maven-a1a1b4e6e10a)<br><br>
 ## Resume
 Download Resume<br>
-&nbsp;[<img src="download2.png" width="80" height="80" align="center">](ArushiResume(Oct).pdf)
+&nbsp;[<img src="download2.png" width="60" height="60" align="center">](ArushiSharma(May).pdf)<br><br>
+## Photo Gallery<br>
