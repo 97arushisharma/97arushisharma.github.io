@@ -9,7 +9,7 @@ _97arushisharma@gmail.com_
 [<img src="Linkedin-icon.png" width="40" height="40">](https://linkedin.com/in/aru-sha4/)&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="twitter.webp" width="40" height="40">](https://mobile.twitter.com/aru_sha4)&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="stackoverflow-512.png" width="40" height="40">](https://stackoverflow.com/users/12485228/aru-sha4?tab=profile)<br><br>-->
-![bg](#4d4d4d)
+
 ## About Me
 Hi! I am a Software Engineer whose motive is to learn new technologies and tools, experiment with my knowledge and also integrating these experiments into real world problems to eradicate the lurking flaws of the society and ameliorate the present conditions. I am deeply passionate about seeing myself as a successful Data Engineer.<br>
 Over the four years of my bachelors I have explored many fields to find the one where my interest lies. As a result I have experience in Android Application Development and Big Data tools like Hadoop, Oozie, Kafka & Flume. I have basic knowledge of data storages and management. I have also worked on Network Security combined with Hadoop. I find the field of Network Security a lot more interesting than it actually appears to be and thus, I am familiar with some linux utilities like wireshark and iptables. <br>
