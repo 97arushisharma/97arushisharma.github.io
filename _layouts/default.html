@@ -36,8 +36,9 @@
       transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%)
       }
-      .container:hover .image{
-      opacity: 0.3;
+      .container:hover {
+      background-color: rgba(255,255,255,0.3);
+      background-blend-mode: lighten;
       }
       .container:hover .middle {
       opacity: 1;
@@ -45,22 +46,19 @@
       .circular {
       box-sizing: border-box;
       border-radius: 50%;
-      max-width: 50%;
-      height: 50%;
+      width: 25vh;
+      height: 30vh;
       text-align: center;
       position: relative;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
+      margin: auto;
       }
       .text {
       box-sizing: border-box;
       font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
       color: #000000;
       font-size: 25px;
-      position: absolute;
+      position: relative;
+      margin-top: 5vh;
       top: 50%;
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
@@ -81,6 +79,7 @@
       ul#horizontal-list li {
       display:inline;
       padding-right:1em;
+      padding-top: 2em;
       }
       .p footer{
       font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -99,13 +98,10 @@
    <!--[if lt IE 9]>
    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
    <![endif]-->
-   {% seo %}
+   <!-- {% seo %} -->
 </head>
 <body class="nil">
-   <!--     <a href="{{ '/' | absolute_url }}">
-      <h1 align="center">{{ site.title | default: site.github.repository_name }}</h1>
-      </a> -->
-   <!--     <header class="over"> -->
+   
    <div class="container">
       <!--<img src="resources/20190926_172910.jpg" alt="Avatar" class="image">-->
       <div class="middle">
@@ -114,30 +110,18 @@
          <div class="table">
             <p align="center">Associate Software Engineer<br>Guavus, a Thales Company<br>Gurgaon, India<br>97arushisharma@gmail.com</p>
          </div>
-         <div class="table">
-            <ul id="horizontal-list">
-               <li><a href="mailto:97arushisharma@gmail.com"><img src="resources/281769.png" alt="list item 1" width="45" height="40" /></a></li>
-               <li><a href="https://github.com/97arushisharma"><img src="resources/git.svg" alt="list item 2" width="37" height="37" /></a></li>
-               <li><a href="https://linkedin.com/in/aru-sha4/"><img src="resources/Linkedin-icon.png" alt="list item 3" width="40" height="40" /></a></li>
-               <li><a href="https://mobile.twitter.com/aru_sha4"><img src="resources/twitter.webp" alt="list item 4" width="43" height="43" /></a></li>
-               <li><a href="https://stackoverflow.com/users/12485228/aru-sha4?tab=profile"><img src="resources/stackoverflow-512.png" alt="list item 5" width="40" height="40" /></a></li>
+         <div style="text-align: center;">
+            <ul id="horizontal-list" style="list-item-style:none; margin-left:0px; padding-left:0px;">
+               <li><a href="mailto:97arushisharma@gmail.com"><img src="resources/281769.png" alt="list item 1" width="10%" height="8%" /></a></li>
+               <li><a href="https://github.com/97arushisharma"><img src="resources/git.svg" alt="list item 2" width="10%" height="10%" /></a></li>
+               <li><a href="https://linkedin.com/in/aru-sha4/"><img src="resources/Linkedin-icon.png" alt="list item 3" width="10%" height="10%" /></a></li>
+               <li><a href="https://mobile.twitter.com/aru_sha4"><img src="resources/twitter.webp" alt="list item 4" width="12%" height="12%" /></a></li>
+               <li><a href="https://stackoverflow.com/users/12485228/aru-sha4?tab=profile"><img src="resources/stackoverflow-512.png" alt="list item 5" width="10%" height="10%" /></a></li>
             </ul>
          </div>
       </div>
    </div>
-   <!--     </header> -->
-   <!--     <header>
-      </header> -->
-   <!--   <div class="inner" display="inline">
-      <img src="resources/git.svg" align="left" width="150" height="150">&nbsp;&nbsp;
-      <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-      <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
-      {% endif %}
-      {% if site.github.is_user_page %}
-       <a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a> 
-      {% endif %}
-      </div> -->
+   
    <div id="content-wrapper">
       <div class="inner clearfix" style="text-align: justify">
          <section id="main-content">
@@ -199,7 +183,7 @@
               dots[slideIndex-1].className += " w3-opacity-off";
             }
          </script>
-         {% if site.google_analytics %}
+         <!-- {% if site.google_analytics %}
          <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -208,7 +192,7 @@
             ga('create', '{{ site.google_analytics }}', 'auto');
             ga('send', 'pageview');
          </script>
-   {% endif %}
+   {% endif %} -->
    <footer width="100%" height="50px" style="background-color:#404040;">
       <p align="center"> Thank You! </p> 
    </footer>
