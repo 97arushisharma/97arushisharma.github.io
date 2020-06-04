@@ -18,24 +18,28 @@ I have basic knowledge of data storages and management. I have also worked on Ne
 <br>
 I enjoy learning about the korean pop culture and listening to korean pop music as an avocation. I dabble in Photography
 (without a DSLR ;)), sketching and reading are my other go to things.<br><br>
-## Internships and Experiences
+## Experiences and Internships
 **Guavus, a Thales Company, Gurugram**<br>
 _Jul,2019-Present_<br>
-Associate Software Engineer at Guavus with a Big Data developer role.<br><br>
+**Associate Software Engineer** at Guavus with a Big Data developer role. I am responsible for writing and improving the data processing pipelines within the BigData ecosystem. Also focused towards writing automation tools and testing suites.<br><br>
 **Gemini Solutions Private Limited, Gurugram**<br>
 _Jan,2019-Jul,2019_<br>
-Technical Trainee at Gemini where I was responsible for building Java Spring Boot web services. Also worked with Docker, Kubernetes, Linux and Python(Flask).<br><br>
+**Technical Trainee** at Gemini where I was responsible for building Java Spring Boot web services. Also worked with Docker, Kubernetes, Linux and Python(Flask).<br><br>
 **Design and Innovation Center, UIET, Panjab University**<br>
 _Jan,2018- May,2018_<br>
-Project Intern at DIC, UIET, Chandigarh under the guidance of [Dr. Naveen Aggarwal](http://uiet.puchd.ac.in/wp-content/uploads/FacultyCV/CSE/Naveen_project_Web-_resume.pdf)(Principal Investigator, DIC, UIET) responsible for creating a desktop application for translating Hindi-English mixed sentences into english. The hindi part of the sentences could be in romanized form.<br><br>
+**Project Intern** at DIC, UIET, Chandigarh under the guidance of [Dr. Naveen Aggarwal](http://uiet.puchd.ac.in/wp-content/uploads/FacultyCV/CSE/Naveen_project_Web-_resume.pdf)(Principal Investigator, DIC, UIET) responsible for creating a desktop application for translating Hindi-English mixed sentences into english. The hindi part of the sentences could be in romanized form.<br><br>
 **Design and Innovation Center, UIET, Panjab University**<br>
 _Jun,2017-Jul,2017_<br>
-Project Intern at DIC, UIET, Chandigarh under the guidance of [Dr. Naveen Aggarwal](http://uiet.puchd.ac.in/wp-content/uploads/FacultyCV/CSE/Naveen_project_Web-_resume.pdf)(Principal Investigator, DIC, UIET) responsible for creating an Android Application by the name **Red-Aid** aimed towards the blood donors and the blood donee. It also facilitates organ donation pledge taking task for the donors.<br>
+**Project Intern** at DIC, UIET, Chandigarh under the guidance of [Dr. Naveen Aggarwal](http://uiet.puchd.ac.in/wp-content/uploads/FacultyCV/CSE/Naveen_project_Web-_resume.pdf)(Principal Investigator, DIC, UIET) responsible for creating an Android Application by the name **Red-Aid** aimed towards the blood donors and the blood donee. It also facilitates organ donation pledge taking task for the donors.<br>
 Google PlayStore Link: [Red-Aid](https://play.google.com/store/apps/details?id=com.DIC.RedAid.Application)<br><br>
-## Projects
+
+## Publications
 **Detecting Flooding Based DDoS attack using Hadoop**<br>
 Executed the research project under the guidance of [Dr. Krishan Kumar](http://uiet.puchd.ac.in/wp-content/uploads/2019/05/ProfKrishan.pdf)(Professor, Department of Information Technology, UIET) that detects the Flood based DDoS Attacks on a system using the Entropy of Source IP address over a Hadoop Cluster.<br>
+The paper was presented at 4th International Conference on Computing in Engineering & Technology (ICCET) 2019, Aurangabad.<br>
 Springers Link: [Real-Time DDoS Detection Based on Entropy using Hadoop Framework](https://link.springer.com/chapter/10.1007%2F978-981-32-9515-5_28)<br><br>
+
+## Projects 
 **News Portal**<br>
 Part of Deloitte Technoutsav Project, the News Portal is a dektop application that collects news articles corresponding to a keyword, through webscraping(Online News Websites) or live streaming from twitter and displays a summarized result from the two sources.<br><br>
 **Hindi-English Mixed Language Translator**<br>
