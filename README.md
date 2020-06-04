@@ -35,8 +35,8 @@ Google PlayStore Link: [Red-Aid](https://play.google.com/store/apps/details?id=c
 
 ## Publications
 **Detecting Flooding Based DDoS attack using Hadoop**<br>
-Executed the research project under the guidance of [Dr. Krishan Kumar](http://uiet.puchd.ac.in/wp-content/uploads/2019/05/ProfKrishan.pdf)(Professor, Department of Information Technology, UIET) that detects the Flood based DDoS Attacks on a system using the Entropy of Source IP address over a Hadoop Cluster.<br>
-The paper was presented at 4th International Conference on Computing in Engineering & Technology (ICCET) 2019, Aurangabad.<br>
+Executed the research project under the guidance of [Dr. Krishan Kumar](http://uiet.puchd.ac.in/wp-content/uploads/2019/05/ProfKrishan.pdf)(Professor, Department of Information Technology, UIET) that detects the Flood based DDoS Attacks on a system using the Entropy of Source IP address over a Hadoop Cluster.
+The paper was presented at _4th International Conference on Computing in Engineering & Technology (ICCET) 2019, Aurangabad_.<br>
 Springers Link: [Real-Time DDoS Detection Based on Entropy using Hadoop Framework](https://link.springer.com/chapter/10.1007%2F978-981-32-9515-5_28)<br><br>
 
 ## Projects 
