@@ -41,7 +41,7 @@ Springers Link: [Real-Time DDoS Detection Based on Entropy using Hadoop Framewor
 
 ## Projects 
 **News Portal**<br>
-Part of Deloitte Technoutsav Project, the News Portal is a dektop application that collects news articles corresponding to a keyword, through webscraping(Online News Websites) or live streaming from twitter and displays a summarized result from the two sources.<br><br>
+Part of Deloitte Technoutsav Project, the News Portal is a desktop application that collects news articles corresponding to a keyword, through webscraping(Online News Websites) or live streaming from twitter and displays a summarized result from the two sources.<br><br>
 **Hindi-English Mixed Language Translator**<br>
 This project involved a desktop application that converts the Hindi-English mixed sentences(including the romanized form of Hindi) into complete English sentence.<br><br>
 **Performance Analysis of Big Data Storage techniques**<br>
