@@ -54,6 +54,6 @@ This is a simple Desktop Application made in Java Eclipse with backend connectiv
 [Java Check-style and Formatting using Maven](https://medium.com/@aru_sha4/java-check-style-and-formatting-using-maven-a1a1b4e6e10a)<br><br>
 ## Resume
 Download Resume<br>
-&nbsp;[<img src="resources/download2.png" width="60" height="60" align="center">](ArushiResume(Jan).pdf)<br><br>
+&nbsp;[<img src="resources/download2.png" width="60" height="60" align="center">](resources/ArushiSharma-Resume.pdf)<br><br>
 ## Photo Gallery<br>
 Here are some of my favourites from my gallery. For more visit [@shabby_pixel](https://instagram.com/shabby_pixel?igshid=s8hu8aptf1vj)<br><br>
