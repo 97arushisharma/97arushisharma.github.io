@@ -1,186 +1,523 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: " en-US " }}">
+
 <head>
-   <meta charset='utf-8'>
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   
-   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
-   <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
-   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-   <style>
-      .container {
-      background-image: url("resources/20190926_172910.jpg");
-      background-size: cover;
-      height: 100vh;
-      display: inherit;
-      position: relative;
-      width: 100%;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      }
-      .image {
-      opacity: 1;
-      display: block;
-      width: 100%;
-      height: auto;
-      transition: .5s ease;
-      backface-visibility: hidden;
-      }
-      .middle {
-      transition: .5s ease;
-      opacity: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%)
-      }
-      .container:hover {
-      background-color: rgba(255,255,255,0.3);
-      background-blend-mode: lighten;
-      }
-      .container:hover .middle {
-      opacity: 1;
-      }
-      .circular {
-      box-sizing: border-box;
-      border-radius: 50%;
-      width: 25vh;
-      height: 30vh;
-      text-align: center;
-      position: relative;
-      margin: auto;
-      }
-      .text {
-      box-sizing: border-box;
-      font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-      color: #000000;
-      font-size: 25px;
-      position: relative;
-      margin-top: 5vh;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      text-align: center;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      }
-      .table {
-      box-sizing: border-box;
-      font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-      text-align: center;
-      color: #000000;
-      font-size: 15px;
-      }
-      ul#horizontal-list li {
-      display:inline;
-      padding-right:1em;
-      padding-top: 2em;
-      }
-      .p footer{
-      font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-      }
-      div.polaroid {
-      width: 80%;
-      background-color: white;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      margin-bottom: 25px;
-      }
-      div.container {
-      text-align: center;
-      padding: 10px 20px;
-      }
-   </style>
-   
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- https://favicon.io/favicon-generator/ VT323-->
+  <link rel="shortcut icon" type="image/x-icon" href="resources/favicon.ico">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
+  <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+  * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: #212323;*/
+    /*color: white;*/
+  }
+  /* Style the header */
+  
+  header {
+    background-color: #0BBAFC;
+    /*background-color: #404040;*/
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  /* Container for flexboxes */
+  
+  section {
+    display: -webkit-flex;
+    display: flex;
+    margin: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  /* Style the navigation menu */
+  
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ffffff;
+    padding: 25px;
+  }
+  /* Style the content */
+  
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    text-align: justify;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    opacity: 0.8;
+  }
+  
+  article h3 {
+    color: #0297F9;
+  }
+  
+  article h3 a {
+    text-decoration: none;
+  }
+  
+  article p a {
+    color: blue;
+  }
+  /* Style the footer */
+  
+  footer {
+    /*background-color: #777;*/
+    background-image: url("resources/bg-footer.png");
+    background-size: cover;
+    height: 70vh;
+    display: inherit;
+    position: relative;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+  }
+  
+  footer b {
+    color: #055BFC;
+  }
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+  
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+  /* For general settings */
+  
+  .zoom {
+    transition: transform .2s;
+    /* Animation */
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 20vh;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    margin: auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+  .zoom_1 {
+    transition: transform .2s;
+    /* Animation */
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 15vh;
+    height: 15vh;
+    text-align: center;
+    position: relative;
+    margin: auto;
+  }
+  
+  .zoom_1:hover {
+    transform: scale(2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+  .zoom_2 {
+    transition: transform .2s;
+    /* Animation */
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 23vh;
+    height: 23vh;
+    text-align: center;
+    position: relative;
+    margin: auto;
+  }
+  
+  .zoom_2:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+  .zoom_3 {
+    transition: transform .2s;
+    /* Animation */
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 12vh;
+    height: 12vh;
+    text-align: center;
+    position: relative;
+    margin: auto;
+  }
+  
+  .zoom_3:hover {
+    transform: scale(2.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .logo {
+    box-sizing: border-box;
+    /*border-radius: 40%;*/
+    width: 30vh;
+    height: 30vh;
+    text-align: center;
+    position: relative;
+    margin: auto;
+  }
+  
+  .container {
+    background-image: url("resources/20190926_172910.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: inherit;
+    position: relative;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    background-blend-mode: lighten;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .circular {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 25vh;
+    height: 30vh;
+    text-align: center;
+    position: relative;
+    margin: auto;
+  }
+  
+  .text {
+    box-sizing: border-box;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    color: #000000;
+    font-size: 25px;
+    position: relative;
+    margin-top: 5vh;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .table {
+    box-sizing: border-box;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+  }
+  
+  ul#horizontal-list li {
+    display: inline;
+    padding-right: 1em;
+    padding-top: 2em;
+  }
+  
+  .p footer {
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  }
+  
+  div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  </style>
 </head>
+
 <body class="nil">
-   
-   <div class="container">
-      <!--<img src="resources/20190926_172910.jpg" alt="Avatar" class="image">-->
-      <div class="middle">
-         <div class="circular"><img src="resources/12055-min.jpg" alt="Its Me" class="circular" ></div>
-         <div class="text">Hello World! Its ARUSHI!</div>
-         <div class="table">
-            <p align="center">Associate Software Engineer<br>Guavus, a Thales Company<br>Gurgaon, India<br>97arushisharma@gmail.com</p>
-         </div>
-         <div style="text-align: center;">
-            <ul id="horizontal-list" style="list-item-style:none; margin-left:0px; padding-left:0px;">
-               <li><a href="mailto:97arushisharma@gmail.com"><img src="resources/281769.png" alt="list item 1" width="6%" height="4%" /></a></li>
-               <li><a href="https://github.com/97arushisharma"><img src="resources/git.svg" alt="list item 2" width="6%" height="6%" /></a></li>
-               <li><a href="https://linkedin.com/in/aru-sha4/"><img src="resources/Linkedin-icon.png" alt="list item 3" width="6%" height="6%" /></a></li>
-               <li><a href="https://mobile.twitter.com/aru_sha4"><img src="resources/twitter.webp" alt="list item 4" width="8%" height="8%" /></a></li>
-               <li><a href="https://stackoverflow.com/users/12485228/aru-sha4?tab=profile"><img src="resources/stackoverflow-512.png" alt="list item 5" width="6%" height="6%" /></a></li>
-            </ul>
-         </div>
+  <div class="container">
+    <!--<img src="resources/20190926_172910.jpg" alt="Avatar" class="image">-->
+    <div class="middle">
+      <div class="circular"><img src="resources/12055-min.jpg" alt="Its Me" class="circular"></div>
+      <div class="text">Hello World! Its ARUSHI!</div>
+      <div class="table">
+        <p align="center">Associate Software Engineer
+          <br>Guavus, a Thales Company
+          <br>Gurgaon, India
+          <!--<br>97arushisharma@gmail.com</p>-->
       </div>
-   </div>
-   
-   <div id="content-wrapper">
-      <div class="inner clearfix" style="text-align: justify">
-         <section id="main-content">
-            {{ content }}
-         </section>
-         <!--<aside id="sidebar">
-            {% if site.show_downloads %}
-               <a href="{{ site.github.zip_url }}" class="button">
-               <small>Download</small>
-                  .zip file
-                </a>
-                <a href="{{ site.github.tar_url }}" class="button">
-                <small>Download</small>
-                .tar.gz file
-                </a>
-            {% endif %}
-            {% if site.github.is_project_page %}
-              <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
-            {% endif %}
-             <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</p>
-            </aside>-->
-         
+      <div style="text-align: center;">
+        <ul id="horizontal-list" style="list-item-style:none; margin-left:0px; padding-left:0px;">
+          <li>
+            <a href="mailto:97arushisharma@gmail.com"><img src="resources/281769.png" alt="list item 1" width="6%" height="4%" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/97arushisharma"><img src="resources/git.svg" alt="list item 2" width="6%" height="6%" /></a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/aru-sha4/"><img src="resources/Linkedin-icon.png" alt="list item 3" width="6%" height="6%" /></a>
+          </li>
+          <li>
+            <a href="https://mobile.twitter.com/aru_sha4"><img src="resources/twitter.webp" alt="list item 4" width="8%" height="8%" /></a>
+          </li>
+          <li>
+            <a href="https://stackoverflow.com/users/12485228/aru-sha4?tab=profile"><img src="resources/stackoverflow-512.png" alt="list item 5" width="6%" height="6%" /></a>
+          </li>
+          <li>
+            <a href="https://scholar.google.com/citations?hl=en&user=-LlglMoAAAAJ"><img src="resources/google-scholars-3.png" alt="list item 6" width="6%" height="6%" /></a>
+          </li>
+        </ul>
       </div>
-   </div>
-         <div class="w3-content" style="max-width:1200px">
-            <img class="mySlides" src="resources/IMG-20190224-WA0021.jpg" style="width:100%;display:none">
-            <img class="mySlides" src="resources/20190913_002205.jpg" style="width:100%;height:50%">
-            <img class="mySlides" src="resources/Snapchat-310963689.jpg" style="width:100%;display:none">
-            <div class="w3-row-padding w3-section">
-               <div class="w3-col s4">
-                  <img class="demo w3-opacity w3-hover-opacity-off" src="resources/IMG-20190224-WA0021.jpg" style="width:100%;height:200px;cursor:pointer" onclick="currentDiv(1)">
-               </div>
-               <div class="w3-col s4">
-                  <img class="demo w3-opacity w3-hover-opacity-off" src="resources/20190913_002205.jpg" style="width:100%;height:200px;cursor:pointer" onclick="currentDiv(2)">
-               </div>
-               <div class="w3-col s4">
-                  <img class="demo w3-opacity w3-hover-opacity-off" src="resources/Snapchat-310963689.jpg" style="width:100%;height:200px;cursor:pointer" onclick="currentDiv(3)">
-               </div>
-            </div>
-         </div>
-         <script>
-            function currentDiv(n) {
-              showDivs(slideIndex = n);
-            }
-            
-            function showDivs(n) {
-              var i;
-              var x = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("demo");
-              if (n > x.length) {slideIndex = 1}
-              if (n < 1) {slideIndex = x.length}
-              for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-              }
-              for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
-              }
-              x[slideIndex-1].style.display = "block";
-              dots[slideIndex-1].className += " w3-opacity-off";
-            }
-         </script>
-         <!-- {% if site.google_analytics %}
+    </div>
+  </div>
+  <div id="content-wrapper">
+    <div class="inner clearfix" style="text-align: justify; background-image: url('resources/snow.gif');">
+      <!--background-image: url('resources/star2.gif');-->
+      <header>
+        <h1>Who am I?</h1> </header>
+      <section style="margin-left: 50px; margin-right: 50px;">
+        <nav> <img src="resources/Taehyun.jpg" alt="My Drawing" class="zoom"> <img src="resources/citypalace.jpg" alt="IPicture" class="zoom_1"> <img src="resources/tart.jpg" alt="Picture" class="zoom_3"> <img src="resources/Jennie.jpg" alt="My Drawing" class="zoom_2"> <img src="resources/field.jpg" alt="My Drawing" class="zoom"> <img src="resources/Kyuhyun.jpg" alt="Picture" class="zoom_1" style="margin-left: 30px"> </nav>
+        <article>
+          <!-- <h4>Who is Arushi Sharma?</h4> -->
+          <!-- <h4> Jul, 2019 - Present </h4> -->
+          <p>Hi! I am a Software Engineer whose motive is to learn new technologies and tools, experiment with my knowledge and also integrating these experiments into real world problems to eradicate the lurking flaws of the society and ameliorate the present conditions. I am deeply passionate about seeing myself as a successful Data Engineer.
+            <br>
+            <blockquote>"Data is the new science. Big Data holds the answers."
+              <br> -Pat Gelsinger</blockquote>
+            <br> I have experience in Big Data tools like Hadoop, Oozie, Kafka, Apache Pulsar & Flume and Android Application Development. I enjoy playing with data and learning new tools and frameworks to do so is my permanent objective. I have basic knowledge of data storages and management. I have also worked on Network Security combined with Hadoop. I find the field of Network Security a lot more interesting than it actually appears to be and thus, I am familiar with some linux network utilities like wireshark and iptables.
+            <br>
+            <br> I enjoy learning about the Korean pop culture and listening to Korean pop music as an avocation. I dabble in Photography (without a DSLR ;)), sketching and reading are my other go to things.</p>
+        </article>
+      </section>
+      <header>
+        <h1>My Journey</h1> </header>
+      <section>
+        <nav> <img src="resources/guavus.jpeg" alt="Its Me" class="logo"> </nav>
+        <article>
+          <h3><a href="https://www.guavus.com/">Guavus, a Thales company</a></h3>
+          <h4>Associate Software Engineer, Jul 2019 - Present </h4>
+          <p> I am working as a Java/BigData Developer as a part of Engineering-Apps team. Here my primary role involves working with bigdata pipelines in Java, SQLStream and Scala.
+            <br> - Implemented a "Pulsar Sink Plugin" for SQLStream, which is used to publish data to Apache-Pulsar through a SQLStream pipeline.
+            <br> - Worked as a core developer to replicate an existing Data processing and aggregating pipeline from JAVA to SQL. This required the thorough study of the Legacy Java Code.
+            <br> - Worked as a part of a project where in I was responsible for making changes to an existing Proxy server code in Golang to add new headers to the response from the server to the customer.
+            <br> - Also wrote an enterprise IPFIX packet dissector in lua for Wireshark.
+            <br> - Wrote various automation scripts and tools in Python including regression suites and security check tools that involved tools to automatically apply iptable rules and check for vulnerabilities.
+            <br> - Working as a part of an Agile team for successfully meeting the project deadlines along with ensured quality of the product or solution.</p>
+        </article>
+      </section>
+      <section>
+        <article>
+          <h3><a href="https://www.geminisolutions.com/">Gemini Solutions Private Limited</a></h3>
+          <h4>Technical Trainee, Jan 2019 - Jul 2019 </h4>
+          <p>I was responsible for building Java Spring Boot web services and improving the existing microservices.
+            <br> - Deployed the microservice using Docker and Kubernetes.
+            <br> - Also, used the Linux environment and worked with Python(Flask).</p>
+        </article>
+        <nav> <img src="resources/gemini.png" alt="Its Me" class="logo"> </nav>
+      </section>
+      <section>
+        <nav> <img src="resources/dic.jpg" alt="Its Me" class="logo"> </nav>
+        <article>
+          <h3><a href="http://dic.puchd.ac.in/">Design and Innovation Center, UIET, Panjab University</a></h3>
+          <h4>Project Intern, Jan 2018 - May 2018 </h4>
+          <p> Worked under the guidance of <a href="http://uiet.puchd.ac.in/wp-content/uploads/FacultyCV/CSE/Naveen_project_Web-_resume.pdf" alt="Dr. Naveen Aggarwal">Dr. Naveen Aggarwal</a>(Principal Investigator, DIC, UIET) responsible for creating a desktop application for translating Hindi-English mixed sentences into english. The hindi part of the sentences could be in romanized form. </p>
+        </article>
+      </section>
+      <section>
+        <article>
+          <h3><a href="http://dic.puchd.ac.in/">Design and Innovation Center, UIET, Panjab University</a></h3>
+          <h4>Project Intern, Jun 2017 - Jul 2017 </h4>
+          <p> Worked under the guidance of <a href="http://uiet.puchd.ac.in/wp-content/uploads/FacultyCV/CSE/Naveen_project_Web-_resume.pdf" alt="Dr. Naveen Aggarwal">Dr. Naveen Aggarwal</a>(Principal Investigator, DIC, UIET) responsible for creating an Android Application by the name Red-Aid aimed towards the blood donors and the blood donee. It also facilitates organ donation pledge taking task for the donors.
+            <br> Google PlayStore Link: <a href="https://play.google.com/store/apps/details?id=com.DIC.RedAid.Application" alt="My App">Red-Aid</a></p>
+        </article>
+        <nav> <img src="resources/dic.jpg" alt="Its Me" class="logo"> </nav>
+      </section>
+      <!-- <header>
+        <h1>Education</h1>
+      </header> -->
+      <section>
+        <nav> <img src="resources/uiet.png" alt="Its Me" class="logo"> </nav>
+        <article>
+          <h3><a href="http://uiet.puchd.ac.in/">University Institute of Engineering and Technology, Panjab University, Chandigarh</a></h3>
+          <h4> B.E. in Information Technology, Aug 2015 - Jul 2019 </h4>
+          <p>Panjab University was not just an Educational Institute but also a place which was driven by culture, the rich culture of the two states the UT shares boundary with and of India, on a whole. My four years of Bachelors not only made me into a proficient Software Engineer, but also helped me view the world with a different perspective. I made friends from different departments of studies, all unified by a common dream of achieving their goals in life.</p>
+          <p>UIET offered me plethora of opportunities in all fields from core development and coding to soft-skills, that by the end of my freshman year I knew my interest and the path I needed to follow. Thanks to the extremely supportive faculty who mentored me and helped me to move on the path of my interest. I made an amazing team and learned how being a Team Player and a Team Motivator was an important part of the Software Development process. My participation in many hackathons gave me an exposure about where I stood in the world and slowly increased my knowledge of trending technologies and tools. It helped me to discover my love for building software and tools that can be used for the benefit of the society and motivated me to ceaselessly work towards this goal while developing forebearance towards adversity. While preparing for my GATE exam in final year I realised how much I enjoyed learning the concepts behind the Computer Systems.</p>
+        </article>
+      </section>
+      <section>
+        <article>
+          <h3><a href="https://www.stannsroorkee.org/">St. Ann's Senior Secondary School, Roorkee</a></h3>
+          <h4> Class of 2015 </h4>
+          <p>I got to complete my schooling at an amazing place that made me realize my passion for coding. Unending support from the faculty in not only studies but extracurriculars like extempores, sports(tracks and field, and march-past), poetry, etc, made me fall in love with who I was and made me want to do my best in everything I pursued.</p>
+        </article>
+        <nav> <img src="resources/stanns.png" alt="Its Me" class="logo"> </nav>
+      </section>
+      <header>
+        <h1>Publications</h1> </header>
+      <section>
+        <nav> <img src="resources/research-paper.jpg" alt="Its Me" class="logo"> </nav>
+        <article>
+          <h3>Real-Time DDoS Detection Based on Entropy using Hadoop Framework</h3>
+          <h4><b>Arushi Sharma</b>, Charul Agrawal, Aditya Singh, <a href="http://uiet.puchd.ac.in/wp-content/uploads/2019/05/ProfKrishan.pdf" alt="Dr. Krisham Kumar" style="color: blue; text-decoration: none;">Dr. Krishan Kumar</a><h4>
+          <h4><i>ICCET, 2019</i></h4>
+          <p><a href="https://link.springer.com/chapter/10.1007%2F978-981-32-9515-5_28" alt="Research Paper">Springers Link</a></p>
+          <p>Executed the research project under the guidance of Dr. Krishan Kumar(Professor, Department of Information Technology, UIET) that detects the Flood based DDoS Attacks on a system using the Entropy of Source IP address over a Hadoop Cluster. The paper was presented at the 4th International Conference on Computing in Engineering & Technology (ICCET) 2019, Aurangabad.
+            <br> </p>
+        </article>
+      </section>
+      <header>
+        <h1>Projects</h1> </header>
+      <section>
+        <nav> <img src="resources/news-portal.png" alt="Its Me" class="logo"> </nav>
+        <article>
+          <h3>News Portal</h3>
+          <h4> 2018</h4>
+          <p>Part of the Deloitte Technoutsav Project, the News Portal is a desktop application that collects news articles corresponding to a keyword, through webscraping(Online News Websites) or live streaming from twitter and displays a summarized result from the two sources.
+            <br> Github Link: <a href="https://github.com/97arushisharma/MyNews-Summarization-DesktopApp" alt="MyNews-Summarization-DesktopApp">MyNews-Summarization-DesktopApp</a></p>
+        </article>
+      </section>
+      <section>
+        <article>
+          <h3>Hindi-English Mixed Language Translator</h3>
+          <h4> 2018 </h4>
+          <p>This project involved a desktop application that converts the Hindi-English mixed sentences(including the romanized form of Hindi) into complete English sentence.
+            <br> Github Link: <a href="https://github.com/97arushisharma/code-switching-from-hindi-to-english" alt="code-switching-from-hindi-to-english">Code-Switching-From-Hindi-to-English</a></p>
+        </article>
+        <nav> <img src="resources/code-switching.png" alt="Its Me" class="logo"> </nav>
+      </section>
+      
+      <section>
+        <nav> <img src="resources/red-aid.png" alt="My App" class="logo"> </nav>
+        <article>
+          <h3>Red-Aid</h3>
+          <h4> 2017 </h4>
+          <p>This is an Android Application that is targetted towards people in immediate need of blood. It searches for the nearby donors and provides a way to contact them without disclosing the identity of the donor to the donee unless the donor allows.
+            <br> Github Link: <a href="https://github.com/97arushisharma/Red-Aid" alt="Red-Aid">Red-Aid</a></p>
+        </article>
+      </section>
+      
+      <header>
+        <h1>Blogs</h1> </header>
+      <section>
+        <nav> <img src="resources/blog.jpeg" alt="Its Me" class="logo" style="width: 100%; height: 90%;"> </nav>
+        <article>
+          <h3>Java Check-style and Formatting using Maven</h3>
+          <p>It is the job of a Software Developer to write a well formatted code following specific code-style. This not just increases the readability of the code, but also makes it easier for someone else to understand and maintain the code in future. However, it can be a cumbersome task to check-style and format already existing code using some pre-defined code-style format especially when the code is in Java language... <a href="https://medium.com/@aru_sha4/java-check-style-and-formatting-using-maven-a1a1b4e6e10a" style="color: blue;"> Click here to read</a></p>
+        </article>
+      </section>
+      <footer>
+        <h1>Download Resume</h1>
+        <a href="resources/Arushi_Resume.pdf"><img src="resources/download2.png" width="60" height="60" align="center"></a>
+        <h2> I am a 90's kid who has been wandering different cities since childhood and love exploring different cultures. If you would like to know where I travel connect with me on Instagram <b><a href="https://instagram.com/shabby_pixel?igshid=s8hu8aptf1vj">@shabby_pixel</a></b>.<h2>
+        <p align="center"> Thank You! </p>
+      </footer>
+
+      
+      <!-- <div class="w3-content" style="max-width:1200px"> <img class="mySlides" src="resources/varanasi.jpg" style="width:100%;display:none"> <img class="mySlides" src="resources/20190913_002205.jpg" style="width:100%;height:50%"> <img class="mySlides" src="resources/lake.jpg" style="width:100%;display:none">
+    <div class="w3-row-padding w3-section">
+      <div class="w3-col s4"> <img class="demo w3-opacity w3-hover-opacity-off" src="resources/varanasi.jpg" style="width:100%;height:200px;cursor:pointer" onclick="currentDiv(1)"> </div>
+      <div class="w3-col s4"> <img class="demo w3-opacity w3-hover-opacity-off" src="resources/20190913_002205.jpg" style="width:100%;height:200px;cursor:pointer" onclick="currentDiv(2)"> </div>
+      <div class="w3-col s4"> <img class="demo w3-opacity w3-hover-opacity-off" src="resources/lake.jpg" style="width:100%;height:200px;cursor:pointer" onclick="currentDiv(3)"> </div>
+    </div>
+  </div>
+  <script>
+  function currentDiv(n) {
+    showDivs(slideIndex = n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    if(n > x.length) {
+      slideIndex = 1
+    }
+    if(n < 1) {
+      slideIndex = x.length
+    }
+    for(i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    for(i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+    }
+    x[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " w3-opacity-off";
+  }
+  </script> -->
+
+
+    </div>
+  </div>
+  
+  <!-- {% if site.google_analytics %}
          <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -190,8 +527,9 @@
             ga('send', 'pageview');
          </script>
    {% endif %} -->
-   <footer width="100%" height="50px" style="background-color:#404040;">
-      <p align="center"> Thank You! </p> 
-   </footer>
+  <!-- <footer width="100%" height="30px" style="background-color:#404040;">
+    <p align="center"> </p>
+  </footer> -->
 </body>
+
 </html>
