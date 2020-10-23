@@ -22,13 +22,16 @@
   
   body {
     font-family: 'rokkittregular', Arial, sans-serif;
-    font-weight:normal;
-    font-style:normal;
+    font-weight: normal;
+    font-style: normal;
     /*background-color: #212323;*/
     /*color: white;*/
   }
-
-  body h1,h2,h3,h4 {
+  
+  body h1,
+  h2,
+  h3,
+  h4 {
     font-family: 'rokkittregular', Arial, sans-serif;
   }
   /* Style the header */
@@ -76,7 +79,6 @@
   article h3 {
     color: #0297F9;
   }
-
   /*article h4 {
     color: #116608;
   }*/
@@ -108,8 +110,9 @@
     text-align: center;
     color: white;
   }
-
-  footer h1,h2 {
+  
+  footer h1,
+  h2 {
     font-family: 'rokkittregular', Arial, sans-serif;
   }
   
@@ -123,6 +126,30 @@
       -webkit-flex-direction: column;
       flex-direction: column;
     }
+  }
+  /* Image grid */
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  /* Create two equal columns that sits next to each other */
+  
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    transition: transform .2s;
+  }
+  
+  .column img:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
   /* For general settings */
   
@@ -363,10 +390,16 @@
       <header>
         <h1>Who am I?</h1> </header>
       <section style="margin-left: 3%; margin-right: 3%;">
-        <nav> <img src="resources/Taehyun.jpg" alt="My Drawing" class="zoom"> <img src="resources/citypalace.jpg" alt="IPicture" class="zoom_1"> <img src="resources/tart.jpg" alt="Picture" class="zoom_3"> <img src="resources/Jennie.jpg" alt="My Drawing" class="zoom_2"> <img src="resources/field.jpg" alt="My Drawing" class="zoom"> <img src="resources/Kyuhyun.jpg" alt="Picture" class="zoom_1" style="margin-left: 20px"> </nav>
+        <nav>
+          <div class="row">
+            <div class="column"> <img src="resources/data.jpg" style="width:100%"> <img src="resources/music.jpg" style="width:100%"> <img src="resources/varanasi.jpg" style="width:100%">
+            </div>
+            <div class="column"> <img src="resources/Taehyun.jpg" style="width:100%"> <img src="resources/code.jpg" style="width:100%">
+            </div>
+          </div>
+          <!-- <img src="resources/Taehyun.jpg" alt="My Drawing" class="zoom"> <img src="resources/citypalace.jpg" alt="IPicture" class="zoom_1"> <img src="resources/tart.jpg" alt="Picture" class="zoom_3"> <img src="resources/Jennie.jpg" alt="My Drawing" class="zoom_2"> <img src="resources/field.jpg" alt="My Drawing" class="zoom"> <img src="resources/Kyuhyun.jpg" alt="Picture" class="zoom_1" style="margin-left: 20px"> -->
+        </nav>
         <article>
-          <!-- <h4>Who is Arushi Sharma?</h4> -->
-          <!-- <h4> Jul, 2019 - Present </h4> -->
           <p>Hi! I am a Software Engineer whose motive is to learn new technologies and tools, experiment with my knowledge and also integrating these experiments into real world problems to eradicate the lurking flaws of the society and ameliorate the present conditions. I am deeply passionate about seeing myself as a successful BigData Engineer.
             <br>
             <blockquote>"Data is the new science. Big Data holds the answers."
@@ -472,7 +505,6 @@
         </article>
         <nav> <img src="resources/code-switching.png" alt="Its Me" class="logo"> </nav>
       </section>
-      
       <section>
         <nav> <img src="resources/red-aid.png" alt="My App" class="logo"> </nav>
         <article>
@@ -482,7 +514,6 @@
             <br> Github Link: <a href="https://github.com/97arushisharma/Red-Aid" alt="Red-Aid">Red-Aid</a></p>
         </article>
       </section>
-      
       <header>
         <h1>Blogs</h1> </header>
       <section>
@@ -494,7 +525,10 @@
       </section>
       <footer style="background-image: none; background-color: #0BBAFC; background-size: cover;">
         <h1 id="resume">Download Resume</h1>
-        <a href="resources/Arushi_Resume.pdf"><img src="resources/download2.png" width="60" height="60" align="center"></a><br><br><br>
+        <a href="resources/Arushi_Resume.pdf"><img src="resources/download2.png" width="60" height="60" align="center"></a>
+        <br>
+        <br>
+        <br>
         <!-- <h2> I am a 90's kid who has been travelling different cities since childhood and love exploring different cultures. If you would like to know where I travel, connect with me on Instagram <b><a href="https://instagram.com/shabby_pixel?igshid=s8hu8aptf1vj">@shabby_pixel</a></b>.<h2> -->
         <!-- <p align="center" style="background-color: #0BBAFC; width: 100%; height: 30%;"> - Made with &#128154 by Arushi - </p> -->
       </footer>
